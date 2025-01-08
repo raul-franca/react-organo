@@ -1,0 +1,20 @@
+
+.input-option{
+    margin: 24px 0;
+}
+
+.input-option label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.input-option select {
+    width: 100%;
+    box-shadow: 10px 10px 30px  rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    padding: 24px;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+}
