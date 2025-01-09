@@ -5,7 +5,7 @@ const InputOption = (props) => {
     return (
         <div className="input-option">
             <label><b>{props.label}</b></label>
-            <select>
+            <select required={props.required}>
                 <option value="">{props.placeholder}</option>
                 {props.options.map((option) => {
                     return (

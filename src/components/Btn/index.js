@@ -1,3 +1,5 @@
+// src/components/Btn/index.js
+
 import "./Btn.css"
 
 const Btn = (props) => {
