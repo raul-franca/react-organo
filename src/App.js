@@ -5,6 +5,7 @@ import Form from "./components/Form";
 
 import React, {useState} from "react";
 import Time from "./components/Time";
+import Footer from "./components/Footer";
 
 
 const times = [
@@ -70,6 +71,7 @@ function App() {
                 members={members.filter(member => member.time === time.nome)}
             />
         ))};
+        <Footer />
     </div>
 
 );
