@@ -12,6 +12,7 @@ const InputOption = (props) => {
             <select
                 onChange={change}
                 required={props.required}
+                value={props.value}
             >
                 <option value=''>{props.placeholder}</option>
                 {props.options.map((option) => {

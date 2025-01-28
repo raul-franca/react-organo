@@ -6,7 +6,6 @@ import Colaborador from "../Colaborador";
 
 const Time = (props) => {
     const css = { backgroundColor: props.corSecundaria}
-    console.log(props)
     return (
         //Se o array de membros não estiver vazio, renderizamos o componente Time.
         (props.members.length > 0) && <section className="time" style={css}>

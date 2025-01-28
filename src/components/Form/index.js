@@ -10,17 +10,18 @@ const Form = (props) => {
 
     const [nome, setNome] = useState('');
     const [cargo, setCargo] = useState('');
-    const [imagem, setImagem] = useState('https://github.com/raul-franca.png');
+    const [imagem, setImagem] = useState('');
     const [time, setTime] = useState('');
 
 
+
     const submit = (e) => {
-        e.preventDefault();
+        e.preventDefault(); // Evita comportamento padrão do formulário
         props.onAddMember({nome, cargo, imagem, time});
         setNome('');
         setCargo('');
         setTime('');
-        // setImagem('');
+        setImagem('');
     }
 
     return (
@@ -45,7 +46,7 @@ const Form = (props) => {
                    value={imagem}
                    change={setImagem}
                    label="Imagem:"
-                   placeholder="Digite o endereço da imagem"
+                   placeholder="Digite o nome de usuário do GitHub"
                />
                <InputOption
                     value={time}

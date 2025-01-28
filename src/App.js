@@ -52,6 +52,7 @@ function App() {
     const [members,setMembers] = useState([]);
 
     const onAddMember = (member) => {
+        member.imagem = `https://github.com/${member.imagem}.png`;
         setMembers([...members, member]);
     }
 
@@ -64,6 +65,7 @@ function App() {
         />
         {times.map((time) => (
             <Time
+                key={time.nome}
                 nome={time.nome}
                 corPrimaria={time.corPrimaria}
                 corSecundaria={time.corSecundaria}
