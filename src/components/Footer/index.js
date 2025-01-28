@@ -8,18 +8,13 @@ const Footer = () => {
             <section>
                 <ul>
                     <li>
-                        <a href="#" target="_blank">
-                            <img src="/imagens/fb.png" alt="" />
+                        <a href="https://github.com/raul-franca/react-organo" target="_blank" rel="noreferrer">
+                            <img src="/imagens/gh.png" alt="GitHub" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">
-                            <img src="/imagens/tw.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="/imagens/ig.png" alt="" />
+                        <a href="https://linkedin.com/in/raulmfranca/" target="_blank" rel="noreferrer">
+                            <img src="/imagens/in.png" alt="Linkedin" />
                         </a>
                     </li>
                 </ul>
